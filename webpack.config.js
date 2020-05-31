@@ -20,4 +20,8 @@ module.exports = {
     ],
   },
   mode: inProduction ? "production" : "development",
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
+  devtool: "eval-source-map",
 };
